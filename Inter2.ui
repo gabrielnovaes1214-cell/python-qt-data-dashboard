@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>578</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1270</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">backgound-color: rgb(0, 85, 127)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>1051</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="pg">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual genero tem a maior taxa de alfabetização no brasil?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="g3">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>170</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>10</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estudo por Genero</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>120</y>
+        <width>301</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual genero tem o maior numero de indigenas alfabetizados?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="g1">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>0</y>
+        <width>101</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/6675402.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>20</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/copy_of_ibge.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>200</y>
+        <width>471</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>200</y>
+        <width>481</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3"/>
+     </widget>
+     <zorder>label_15</zorder>
+     <zorder>label_4</zorder>
+     <zorder>g3</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_5</zorder>
+     <zorder>g1</zorder>
+     <zorder>label</zorder>
+     <zorder>label_20</zorder>
+     <zorder>verticalLayoutWidget</zorder>
+     <zorder>verticalLayoutWidget_2</zorder>
+    </widget>
+    <widget class="QWidget" name="pc">
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>140</y>
+        <width>351</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual estado tem o maior numero de indigenas alfabetizados?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>140</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual  raça tem a maior de alfabetização no brasil?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="c1">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>180</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>10</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estudo por Raça/Cor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="c3">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>180</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>10</y>
+        <width>141</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/nosso_povo.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>20</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/copy_of_ibge.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1061</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>210</y>
+        <width>471</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>210</y>
+        <width>481</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5"/>
+     </widget>
+     <zorder>label_21</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_10</zorder>
+     <zorder>c1</zorder>
+     <zorder>label_12</zorder>
+     <zorder>c3</zorder>
+     <zorder>label_14</zorder>
+     <zorder>label_17</zorder>
+     <zorder>verticalLayoutWidget_3</zorder>
+     <zorder>verticalLayoutWidget_4</zorder>
+    </widget>
+    <widget class="QWidget" name="pi">
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>110</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual  idade tem a maior de alfabetização no brasil?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>261</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estudo por Idade</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>120</y>
+        <width>381</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Entre os jovens (20-24), qual região tem a maior taxa de alfabetização </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="i4">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>170</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="i1">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>20</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/copy_of_ibge.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>20</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/3343801.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>481</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>200</y>
+        <width>501</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7"/>
+     </widget>
+     <zorder>label_22</zorder>
+     <zorder>label_24</zorder>
+     <zorder>label_26</zorder>
+     <zorder>label_28</zorder>
+     <zorder>i4</zorder>
+     <zorder>i1</zorder>
+     <zorder>label_19</zorder>
+     <zorder>label_2</zorder>
+     <zorder>verticalLayoutWidget_5</zorder>
+     <zorder>verticalLayoutWidget_6</zorder>
+    </widget>
+    <widget class="QWidget" name="pr">
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>130</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Qual região do Brasil tem a maior taxa de alfabetização?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>10</y>
+        <width>271</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estudo por Região</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="r3">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>170</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>130</y>
+        <width>411</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Porcentagem de alfabetizados por estado em relação ao numero total no nordeste</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="r1">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>170</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>10</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/copy_of_ibge.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/istockphoto-1419220114-612x612.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>501</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_8"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>200</y>
+        <width>491</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_9"/>
+     </widget>
+     <zorder>label_40</zorder>
+     <zorder>label_29</zorder>
+     <zorder>label_31</zorder>
+     <zorder>r3</zorder>
+     <zorder>label_32</zorder>
+     <zorder>r1</zorder>
+     <zorder>label_41</zorder>
+     <zorder>label_16</zorder>
+     <zorder>verticalLayoutWidget_7</zorder>
+     <zorder>verticalLayoutWidget_8</zorder>
+    </widget>
+    <widget class="QWidget" name="pt">
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Estudo por Região (2)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>120</y>
+        <width>391</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Porcentagem de alfabetizados por estado em relação ao numero total no norte</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="t6">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>10</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/copy_of_ibge.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>120</y>
+        <width>371</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Porcentagem de alfabetizados por estado em relação ao numero total no sul</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="t2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>160</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gráfico</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>481</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_10"/>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>190</y>
+        <width>501</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_11"/>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>0</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="iconss.qrc">:/icons/Imagens Projeto/istockphoto-1419220114-612x612.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_42</zorder>
+     <zorder>label_34</zorder>
+     <zorder>label_38</zorder>
+     <zorder>t6</zorder>
+     <zorder>label_43</zorder>
+     <zorder>label_44</zorder>
+     <zorder>t2</zorder>
+     <zorder>verticalLayoutWidget_9</zorder>
+     <zorder>verticalLayoutWidget_10</zorder>
+     <zorder>label_25</zorder>
+    </widget>
+    <widget class="QWidget" name="pp">
+     <widget class="QTableView" name="tabela_pp">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>1051</width>
+        <height>391</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>0</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Planilha</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1051</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/4931029.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <zorder>label_23</zorder>
+     <zorder>tabela_pp</zorder>
+     <zorder>label_39</zorder>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>-10</y>
+      <width>100</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>ESTUDOS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="planilha">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Planilha</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="genero">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Genero</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cor">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Raça/Cor</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="idade">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Idade</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="regiao">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Região</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1281</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icons/Imagens Projeto/fundo.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="total">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>50</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Região 2</string>
+    </property>
+   </widget>
+   <zorder>label_18</zorder>
+   <zorder>stackedWidget</zorder>
+   <zorder>label_7</zorder>
+   <zorder>planilha</zorder>
+   <zorder>genero</zorder>
+   <zorder>cor</zorder>
+   <zorder>idade</zorder>
+   <zorder>regiao</zorder>
+   <zorder>total</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1250</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="iconss.qrc"/>
+ </resources>
+ <connections/>
+</ui>

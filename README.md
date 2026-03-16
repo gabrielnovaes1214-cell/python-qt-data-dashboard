@@ -23,6 +23,15 @@ Aplicativo desktop desenvolvido em Python com interface gráfica em PyQt5/Qt Des
 ```bash
 pip install -r requirements.txt
 
+---
 
+## Interface do aplicativo
 
+### Tela principal
+![Tela principal](assets/asdasdasdasd.png)
 
+### Visualização de gráficos
+![Gráficos](assets/adadadad.png)
+
+### Exemplo de execução
+![Execução](assets/Captura de tela 2026-03-16 151723.png)

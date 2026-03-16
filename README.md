@@ -18,11 +18,13 @@ Aplicativo desktop desenvolvido em Python com interface gráfica em PyQt5/Qt Des
 - openpyxl
 
 ## Como executar
-1. Clone este repositório
+
+1. Clone este repositório  
 2. Instale as dependências:
+
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Interface do aplicativo

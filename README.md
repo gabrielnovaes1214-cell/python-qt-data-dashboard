@@ -35,5 +35,5 @@ pip install -r requirements.txt
 ### Visualização de gráficos
 ![Gráficos](assets/adadadad.png)
 
-### Exemplo de execução
+### Planilha
 ![Execução](assets/Captura de tela 2026-03-16 151723.png)

@@ -36,4 +36,4 @@ pip install -r requirements.txt
 ![Gráficos](assets/adadadad.png)
 
 ### Planilha
-![Execução](assets/Captura de tela 2026-03-16 151723.png)
+![Execução](assets/Captura%20de%20tela%202026-03-16%20151723.png)
